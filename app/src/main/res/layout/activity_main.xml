@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="18dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <TextView
+        android:id="@+id/mainLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/mainTitle"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:width="300dp"
+        android:gravity="center"
+        android:text="@string/mainSubTitle"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainLabel" />
+
+    <ImageButton
+        android:id="@+id/btn_erase"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/oval_button"
+        app:layout_constraintStart_toEndOf="@+id/pin_button0"
+        app:layout_constraintTop_toBottomOf="@+id/pin_button9"
+        app:srcCompat="@android:drawable/ic_input_delete"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck"
+        android:scaleType="fitCenter"
+        android:tint="#FFFFFF"
+        android:padding="20dp" />
+
+    <ImageButton
+        android:id="@+id/btn_fingerprint"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/oval_button"
+        app:layout_constraintEnd_toStartOf="@+id/pin_button0"
+        app:layout_constraintTop_toBottomOf="@+id/pin_button7"
+        app:srcCompat="?android:attr/fingerprintAuthDrawable"
+        app:tint="#ffffff"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+        android:scaleType="fitCenter"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/pin_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/code"
+        android:maxLength="4"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#517B9C"
+        android:password="true"
+        app:layout_constraintBottom_toTopOf="@+id/pin_button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subLabel"
+        tools:ignore="Deprecated" />
+
+    <Button
+        android:id="@+id/pin_button1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/oval_button"
+        android:text="1"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/pin_button4"
+        app:layout_constraintEnd_toStartOf="@+id/pin_button5"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/pin_button2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/oval_button"
+        android:text="2"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/pin_button5"
+        app:layout_constraintStart_toStartOf="@+id/pin_button5"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/pin_button3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/oval_button"
+        android:text="3"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/pin_button6"
+        app:layout_constraintStart_toEndOf="@+id/pin_button2"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/pin_button4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/oval_button"
+        android:text="4"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pin_button5"
+        app:layout_constraintEnd_toStartOf="@+id/pin_button5"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/pin_button5"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/oval_button"
+        android:text="5"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subLabel"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/pin_button6"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/oval_button"
+        android:text="6"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pin_button5"
+        app:layout_constraintStart_toEndOf="@+id/pin_button5"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/pin_button7"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/oval_button"
+        android:text="7"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toStartOf="@+id/pin_button5"
+        app:layout_constraintTop_toTopOf="@+id/pin_button8"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/pin_button8"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/oval_button"
+        android:text="8"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toStartOf="@+id/pin_button6"
+        app:layout_constraintStart_toEndOf="@+id/pin_button7"
+        app:layout_constraintTop_toBottomOf="@+id/pin_button5"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/pin_button9"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/oval_button"
+        android:text="9"
+        android:textSize="34sp"
+        app:layout_constraintStart_toEndOf="@+id/pin_button8"
+        app:layout_constraintTop_toTopOf="@+id/pin_button8"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/pin_button0"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/oval_button"
+        android:text="0"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toStartOf="@+id/pin_button9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pin_button8"
+        app:layout_constraintTop_toBottomOf="@+id/pin_button8"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

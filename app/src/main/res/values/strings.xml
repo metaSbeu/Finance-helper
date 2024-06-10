@@ -1,0 +1,90 @@
+<resources>
+    <string name="mainTitle">Финансовый помощник</string>
+    <string name="mainSubTitle">Пройдите авторизацию</string>
+    <string name="code">Код</string>
+
+    <string name="addExpenses">Добавление расходов</string>
+    <string name="addIncomes">Добавление доходов</string>
+    <string name="sum">Сумма</string>
+    <string name="transactionCategory">Категория транзакции</string>
+
+    <string name="health">Здоровье</string>
+    <string name="leisure">Досуг</string>
+    <string name="house">Дом</string>
+    <string name="cafe">Кафе</string>
+    <string name="education">Образование</string>
+    <string name="gift">Подарки</string>
+    <string name="food">Продукты</string>
+    <string name="other">Другое</string>
+    <string name="salary">Зарплата</string>
+    <string name="investments">Инвестиции</string>
+
+    <string name="chooseDate">Выбрать дату</string>
+    <string name="comment">Комментарий</string>
+    <string name="add">Добавить</string>
+
+
+    <string name="expenses">Расходы</string>
+    <string name="incomes">Доходы</string>
+
+    <string name="balance">Баланс</string>
+    <string name="checkIncomes">Посмотреть доходы</string>
+    <string name="checkExpenses">Посмотреть расходы</string>
+    <string name="date">Дата</string>
+    <string name="save">Сохранить</string>
+    <string name="startDate">Дата начала</string>
+    <string name="chooseStartDate">Выбрать дату начала</string>
+    <string name="endDate">Дата окончания</string>
+    <string name="chooseEndDate">Выбрать дату окончания</string>
+    <string name="filter">Фильтровать</string>
+    <string name="changePin">Изменить ПИН</string>
+    <string name="currency">Валюта</string>
+    <string name="language">Язык</string>
+    <string name="deleteAppData">Удалить данные приложения</string>
+    <string name="transactionDate">Дата транзакции</string>
+
+    <string name="sumDb">Сумма: %1$s %2$s</string>
+    <string name="categoryDb">Категория: %1$s</string>
+    <string name="dateDb">Дата: %1$s</string>
+    <string name="commentDb">Комментарий: %1$s</string>
+
+    <string name="pleaseTypeCategory">Пожалуйста, введите категорию</string>
+    <string name="removed">Запись удалена</string>
+    <string name="cannotFindElement">Не удалось найти элемент</string>
+    <string name="incomesCategoryFiltrationTitle">Фильтрация доходов по категории</string>
+    <string name="expensesCategoryFiltrationTitle">Фильтрация расходов по категории</string>
+    <string name="enterCurrentPIN">Введите текущий PIN</string>
+    <string name="enterNewPIN">Введите новый PIN</string>
+    <string name="editExpense">Редактирование расходов</string>
+    <string name="editIncome">Редактирование доходов</string>
+    <string name="pleaseFillAllFields">Заполните все поля</string>
+    <string name="transactionSaved">Транзакция сохранена</string>
+    <string name="pleaseSelectDates">Пожалуйста, введите даты</string>
+    <string name="editCurrentValues">Сумма: %1$s\n Категория: %2$s\n Дата: %3$s\n Комментарий: %4$s</string>
+    <string name="balanceMain">Баланс: %1$s</string>
+    <string name="authSuccess">Аутентификация успешна!</string>
+    <string name="incorrectCode">Неверный код</string>
+    <string name="userAuthentication">Аутентификация пользователя</string>
+    <string name="enterApp">Вход в приложение \"Финансовый помощник\"</string>
+    <string name="cancel">Отмена</string>
+    <string name="fingerPrintAuthNotEnabled">Аутентификация по отпечатку пальцев не включена в настройках</string>
+    <string name="fingerprintNoPermission">Нет разрешения на использование аутентификации по отпечатку пальцев</string>
+    <string name="authCancelled">Аутентификация отменена пользователем</string>
+    <string name="authError">Ошибка аутентификации: %1$s</string>
+    <string name="deleteComment">"Комментарий: "</string>
+    <string name="deleteDate">"Дата: "</string>
+    <string name="deleteCategory">"Категория: "</string>
+    <string name="deleteSum">"Сумма: "</string>
+    <string name="enterPin">Введите пин</string>
+    <string name="confirmPin">Подтвердите пин</string>
+    <string name="pinSaved">ПИН сохранен</string>
+    <string name="pinNotMatch">ПИН не совпадают</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="deleteConfirmation">Вы уверены что хотите удалить все данные приложения?</string>
+    <string name="changingPIN">Изменение ПИН</string>
+    <string name="dateFiltration">Фильтрация по дате</string>
+    <string name="setPin">Придумайте ПИН код для входа в приложение</string>
+
+
+</resources>

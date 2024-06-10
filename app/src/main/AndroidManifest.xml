@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hfad.financehelper">
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/coin"
+        android:label="@string/mainTitle"
+        android:roundIcon="@drawable/coin"
+        android:theme="@style/Theme.FinanceHelper"
+        tools:targetApi="31">
+        <activity
+            android:name=".SetPinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings.DeleteDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings.ChangePinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".expenses.CategoryFilterExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".incomes.CategoryFilterIncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".incomes.DateFilterIncomesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".expenses.DateFilterExpensesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".incomes.EditIncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".expenses.EditExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".expenses.CheckExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".incomes.CheckIncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".expenses.AddExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".incomes.AddIncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecretActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
