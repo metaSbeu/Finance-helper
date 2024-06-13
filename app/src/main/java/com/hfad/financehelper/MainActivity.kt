@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         pinText = findViewById(R.id.pin_text)
+
         fun checkPinAndNavigate(pin: String) {
             val savedPin = sharedPreferences.getString("pin_code", "0000")
             if (pin == savedPin) {
